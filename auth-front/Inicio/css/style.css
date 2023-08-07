@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("/auth-front/Inicio/img/imagen1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  image-rendering: auto; /* Ajusta la calidad de la imagen */
+  -webkit-font-smoothing: antialiased; /* Mejora la apariencia del texto en algunos navegadores */
+  -moz-osx-font-smoothing: grayscale; /* Mejora la apariencia del texto en algunos navegadores */
+}
+
+.container {
+  text-align: left;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px; /* Ajusta este valor según lo desees */
+}
+
+.header {
+  font-size: 96px;
+  color: #FFC700;
+  margin: 0;
+  margin-bottom: 40px; /* Ajusta este valor según lo desees */
+  margin-left: 40px;
+}
+
+p {
+  margin-bottom: 30px; /* Ajusta este valor según lo desees */
+  font-size: 32px;
+  color: white;
+  margin-left: 40px;
+}
+
+/* Estilos para el enlace */
+.start-button {
+  display: inline-block; /* Hace que el enlace sea un elemento en línea */
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: white;
+  padding: 6px 12px;
+  font-size: 32px;
+  text-decoration: none; /* Quita el subrayado del enlace */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.start-button:hover {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.start-button {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.413); 
+; 
+  border-radius: 10px; 
+  padding: 10px 20px; 
+  color: white; 
+  text-decoration: none; 
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #3498db; 
+  color: white; 
+  border-color: #3498db; 
+}

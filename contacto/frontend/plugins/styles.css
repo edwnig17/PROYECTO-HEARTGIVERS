@@ -1,0 +1,187 @@
+html{
+    background-color: #0D0D0D;
+}
+/* Estilos para el formulario */
+/* Estilos para el formulario */
+/* Estilos para el formulario */
+/* Estilos para el formulario */
+.form-style {
+  background-color: #0D0D0D;
+  padding: 1.75rem;
+  height: calc(98vh - 268px);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para cada formulario */
+.contact-form {
+  margin-bottom: 1.5rem; /* Separación entre formularios */
+}
+
+/* Estilos para el contenedor de las filas de inputs */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Estilos para los inputs */
+.form-input {
+  padding: 17px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #333;
+  flex: 1;
+  width: calc(50% - 5px); /* Ajustar el ancho para dos elementos en una fila */
+}
+
+.form-input::placeholder {
+  color: #aaa;
+}
+
+/* Estilos para el botón */
+.form-button {
+  outline: none;
+  padding: 10px;
+  background-color: #1A9C85;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 20px; /* Separación desde arriba */
+}
+
+.form-button:hover {
+  background-color: #13856D;
+}
+
+  /* Estilos para el nav */
+  .nav-style {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 1rem;
+    background-color: #0D0D0D; /* Nuevo color de fondo del nav */
+    border-bottom: 1px solid #FFFFFF; /* Línea blanca debajo del nav */
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .nav-link:hover {
+    background-color: #1A9C85;
+    width: auto;
+    height: 40px;
+  }
+  
+  /* Estilos para el h1 */
+  h1 {
+    color: #03E8F6;
+    text-align: center;
+    margin-top: 100px; /* Espaciado desde la parte superior */
+    font-size: 60px;
+    margin-left: 120px;
+  }
+  
+  /* Línea blanca al final del contenido */
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+  }
+  /* Estilos para el h1 */
+h1 {
+  text-align: center;
+  color: #03E8F6;
+}
+
+/* Estilos para el formulario */
+#contactForm {
+ 
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 67px;
+
+}
+
+/* Estilos para el contenedor de las filas de inputs */
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los inputs */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+  margin-right: -10px;
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #000000;
+    margin-left: 144px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="date"]::placeholder,
+input[type="password"]::placeholder {
+  color: #aaa;
+}
+
+/* Estilos para el botón */
+button[type="submit"] {
+  display: block;
+    width: 25%;
+    padding: 10px;
+    background-color: #1A9C85;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 203px;
+    margin-left: 485px;
+    height: 75px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #13856D;
+}
+
+
+.yop{
+  margin-bottom: 68px !important;
+}
+.youp{
+  margin-bottom: 77px !important;
+}
+
+.ute{
+  margin-left: 313px !important;
+  width: 570px;
+  margin-top: 54px;
+  display: flex;
+  text-align: center;
+}
+input ::placeholder{
+  color: #000000 !important;
+}
+
+.yip{
+  width: 375px;
+}

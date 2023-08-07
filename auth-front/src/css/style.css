@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-color: #0D0D0D!important;
+  }
+  
+  .body-wrapper {
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+  }
+  /* ...otros estilos... */
+/* ...otros estilos... */
+
+.left-section {
+    /* ...otros estilos... */
+    position: absolute;
+    top: 68%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #0D0D0D!important;
+    margin-right: 77px;
+  }
+  
+  .left-section h1 {
+    font-size: 70px;
+    color: #1BBBCF;
+    margin-bottom: -36px;
+    margin-left: 5px;
+    margin-top: -25px;
+  }
+  
+  .left-section p {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 53px;
+    margin-left: 5px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 4    px;
+    background-color: #2F2F30;
+    margin-left: 50px;
+    margin: 5px 0 10px 0;
+  }
+  
+  .show-password {
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 50px;
+  }
+  
+  .checkbox-container label {
+    margin-left: 10px;
+  }
+  
+  .login-button {
+    background-color: #3498db;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 52px;
+    width: 180px;
+    margin-left: 50px;
+
+  }
+  
+  
+  /* ...otros estilos... */
+  
+
+.right-section {
+    /* ...otros estilos... */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .right-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .right-section a {
+    position: absolute;
+    bottom: 116px !important; /* Ajustamos la posición del botón */
+    right: 50%;
+    transform: translateX(50%);
+    color: #1BBBCF;
+    text-decoration: none;
+    font-size: 36px;
+    background-color: #0D0D0D;
+    width: 300px;
+    height: 60px; /* Ajustamos el tamaño del botón */
+    line-height: 60px; /* Centramos verticalmente el contenido del botón */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 74px;
+  }
+  /* ...otros estilos... */
+  
+  
+  /* ...otros estilos... */
+.right-section {
+    /* ...otros estilos... */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .right-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .right-section a {
+    position: absolute;
+    bottom: 220px; 
+    right: 50%;
+    transform: translateX(50%);
+    color: #1BBBCF;
+    text-decoration: none;
+    font-size: 36px;
+    background-color: #0D0D0D;
+    border-radius: 10px;
+    width: 300px !important; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agregamos una sombra al botón */
+  }
+
+  

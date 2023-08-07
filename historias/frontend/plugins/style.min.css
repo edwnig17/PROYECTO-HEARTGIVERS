@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 15% auto;
+  padding: 20px;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-style {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  padding: 1rem;
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-link {
+  color: white;
+  transition: color 0.2s;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  background-color: #1a9c85;
+  width: auto;
+  height: 40px;
+}
+
+body,
+table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.table-container {
+  width: 90%;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td.delete-icon {
+  text-align: center;
+  color: #f00;
+  cursor: pointer;
+}
+
+.add-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1a9c85;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-btn:hover {
+  background-color: #137a60;
+}
+
+.datoss tr:hover {
+  background-color: #1a9c85;
+}
+
+.openModalBtn {
+  padding: 10px 20px;
+  background-color: #1a9c85;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.openModalBtn:hover {
+  background-color: #147a5d;
+}
+
+/* Estilos para el formulario de edición */
+.form-container {
+  text-align: center;
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container .button-container {
+  margin-top: 15px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #1a9c85;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container button:hover {
+  background-color: #147a5d;
+}

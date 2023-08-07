@@ -1,0 +1,176 @@
+html{
+  background-color: #0D0D0D !important;
+}
+h1 {
+  color: white;
+  font-size: 36px;
+}
+
+/* Contenedor que usa display: grid */
+.datoss {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 20px !important;
+}
+.service-box3 {
+  background-color: #D9D9D9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 600px; /* Ancho deseado para las cartas */
+  height: 750px;
+  margin-left: 50px;
+}
+
+.service-box3 img {
+  max-width: 86%;
+  height: auto;
+}
+
+/* Estilos para los botones */
+.site-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #24D7B7;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.site-button.delete {
+  background-color: #24D7B7;
+  margin-right: 10px;
+}
+
+/* Estilos para el botón de Lordicon */
+.btnNuevo lord-icon {
+  width: 70px;
+  height: 70px;
+}
+
+/* Estilos para el botón "Unirte al equipo" */
+.site-button.unirte {
+  background-color: #24D7B7;
+  color: black;
+}
+
+  /* Estilos para el nav */
+  .nav-style {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 1rem;
+    background-color: #0D0D0D; /* Nuevo color de fondo del nav */
+    border-bottom: 1px solid #FFFFFF; /* Línea blanca debajo del nav */
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .nav-link:hover {
+    background-color: #1A9C85;
+    width: auto;
+    height: 40px;
+  }
+  
+.neww{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    background-color: #f9f9f9;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  h1.proyectos-title {
+    color: white;
+    font-size: 55px; /* Tamaño grande del h1 */
+    text-align: center;
+    margin: 50px 0; /* Ajusta el margen superior e inferior deseado */
+}
+.boton-pago{
+
+  padding: 11px 3px;
+  background-color: #24D7B7;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  width: 100px;
+}
+.boton-pago {
+color: black;
+  margin-right: 10px;
+  width: 100px !important;
+}
+
+.title-a{
+  font-size: 40px;
+}
+.descripcion{
+  font-size: 30px;
+}
+
+.delete,
+.update {
+    background-color: #24D7B7; 
+    border: none; 
+    color: black;
+    cursor: pointer; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 22px; 
+    text-decoration: none;
+    height: 46px;
+    width: 100px;
+    border-radius: 5px; 
+  margin-left: 10px;
+}
+
+
+.delete:hover,
+.update:hover {
+    color: white; 
+}

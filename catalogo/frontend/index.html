@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploración 
+	</title>
+    <link rel="stylesheet" type="text/css" href="./plugins/style.min.css">
+</head>
+<body>
+	<nav class="nav-style">
+		<a href="../../catalogo/frontend/index.html" class="nav-link">Exploración de Proyectos</a>
+		<a href="../../py/frontend/index.html" class="nav-link">Seguimientos de Donaciones</a>
+		<a href="../../historias/frontend/index.html" class="nav-link">Historias de Impacto</a>
+		<a href="../../ultimo/frontend/index.html" class="nav-link">Voluntariado</a>
+		<a href="../../contacto/frontend/index.html" class="nav-link">Contactos</a>
+	  </nav> 
+	  <h1 class="proyectos-title">Proyectos</h1>
+				<!-- Agregar new -->
+				<div class="neww">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+						<div class="container">
+					
+				
+					<a href="#" class="btnNuevo"> <lord-icon  src="https://cdn.lordicon.com/ejxwvtlg.json" trigger="hover" colors="outline:#000000,primary:#e83a30,secondary:#ffffff" style="width:70px;height:70px" id="openModalBtn"></lord-icon></a>
+				</div>	
+		  	</div>
+		</div>
+	
+	<div class="page-content bg-white">	
+		<!-- Our Services -->
+		<div class="section-full content-inner overlay-white-dark" id="choose-us">
+			<div class="container">
+				<div class="section-head text-center head-style-2 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeIn;">
+					<div class="dlab-separator bg-primary"></div>
+				</div>
+				<div class="datoss">
+					
+				</div>
+
+				
+				
+	<!-- modal -->
+	<div id="modal" class="modal">
+		<div class="modal-content">
+			<span class="close-btn" id="closeModalBtn">&times;</span>
+			<h2>Registrar Proyectos</h2>
+			<div class="form-container">
+				<form id="newCatalogo" class="form-container" action="" method="POST">
+					<div class="input-container">
+					  <input type="number" name="numero" id="numero" placeholder="#ciclista" required>
+					  <input type="text" name="nombre" id="nombre" placeholder="Introduce el nombre" required>
+					  <input type="text" name="equipo" id="equipo" placeholder="Introduce el equipo" required>
+					  <input type="number" min="999" max="3150" name="rendimiento" id="rendimiento" placeholder="Rendimiento" required>
+					  <input type="url" name="imagen" id="imagen" placeholder="Introduce el url imagen" required>
+					</div>
+					<div class="button-container">
+					  <button type="submit" id="nuevoo" href="./">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>	
+	<!-- modal Update  -->
+	<div id="modalUpdate" class="modal">
+		<div class="modal-content">
+			<span class="close-btn" id="closeUpdate">&times;</span>
+			<h2>Editar Proyectos</h2>
+			<div class="form-container">
+				<form id="updateCatalogo" class="form-container" action="" method="POST">
+					<div class="input-container">
+
+					  <input type="text" name="titulo" id="titulo" placeholder="titulo" required>
+					  <input type="text" name="descripcion" id="descripcion" placeholder="descripcion" required>
+					  <input type="url" name="imagen" id="imgU" placeholder="imagen" required>
+					</div>
+					<div class="button-container">
+					  <button  id="nuevooU" href="" type="submit">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+ 	<script src="./plugins/script.js"></script> 
+	<script src="./pages/catalogo/catalogo.js" type="module"></script>
+
+
+
+</body>
+</html>

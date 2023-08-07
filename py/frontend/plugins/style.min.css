@@ -1,0 +1,119 @@
+.neww{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #646464;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    background-color: #f9f9f9;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  
+  /* Estilos para el nav */
+  .nav-style {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    padding: 1rem;
+    background-color: #0D0D0D; /* Nuevo color de fondo del nav */
+    border-bottom: 1px solid #FFFFFF; /* Línea blanca debajo del nav */
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.2s;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .nav-link:hover {
+    background-color: #1A9C85;
+    width: auto;
+    height: 40px;
+  }
+  
+  /* Reset some default styles */
+body, table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+/* Optional: Add some basic styling */
+.table-container {
+  width: 90%;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td.delete-icon {
+  text-align: center;
+  color: #f00; /* Red color for the delete icon */
+  cursor: pointer;
+}
+
+.add-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1A9C85;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-btn:hover {
+  background-color: #137a60;
+}
+ 

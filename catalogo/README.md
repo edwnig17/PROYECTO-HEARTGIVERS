@@ -1,0 +1,1 @@
+hace falta solo arreglar el modal si es necesesario EL RESTO TODO FUNCIONAL falta meter lo del pago

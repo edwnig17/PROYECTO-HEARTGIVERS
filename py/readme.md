@@ -1,0 +1,1 @@
+hace falta el botón editar y arreglar el diseño
