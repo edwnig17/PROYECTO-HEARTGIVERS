@@ -1,6 +1,6 @@
-# Plataforma de Apoyo Humanitario - Proyecto Solidario
+# Plataforma de Apoyo Humanitario - Proyecto HEARTGIVERS
 
-![Logo](ruta_del_logo/logo.png)
+
 
 ## Descripción
 
