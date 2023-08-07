@@ -21,7 +21,7 @@ async function cargaCatalogo() {
 							<h2 class="dlab-title m-t0 title-a">${titulo}</h2>
 							<div class="dlab-separator bg-primary"></div>
 							<p class="descripcion" descripcion="${descripcion}">Descripcion: ${descripcion}</p>
-							<a class="boton-pago" href="../../../../nextjs-stripe-checkout/src/app/pricing/page.jsx">Unete</a>
+							<a class="boton-pago" href="http://localhost:3000/pricing">Unete</a>
 							<button class="delete" id="${_id}">Eliminar</button>
                  			<button class="update" id="${_id}">Editar</button>
 						</div>

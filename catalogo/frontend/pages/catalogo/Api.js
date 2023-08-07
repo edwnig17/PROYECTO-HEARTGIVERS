@@ -1,4 +1,4 @@
-const urlCatalogo = "http://localhost:3310/api/catalogo"
+const urlCatalogo = "http://localhost:3331/api/catalogo"
 
 export const getCatalogo = async ()=>{
     try {  

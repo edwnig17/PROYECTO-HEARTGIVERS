@@ -67,7 +67,6 @@ const actualizarHistorias = async (req, res) => {
       return res.status(404).json({ error: "No existe" });
     }
 
-    // Realiza tus validaciones aquí si es necesario
 
     const historiasActualizada = await Historias.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true });
     res.json(historiasActualizada);

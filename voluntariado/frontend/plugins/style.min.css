@@ -136,7 +136,7 @@ body {
     color: white;
     font-size: 55px; /* Tamaño grande del h1 */
     text-align: center;
-    margin: 50px 0; /* Ajusta el margen superior e inferior deseado */
+    margin: 50px 0; 
 }
 .boton-pago{
 
@@ -149,6 +149,7 @@ body {
   margin-top: 10px;
   cursor: pointer;
   font-size: 22px;
+  margin-left: 160px;
 }
 
 .title-a{
@@ -226,7 +227,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 425px;
-  height: 625px;
+  height: 682px;
 }
 
 .custom-carta img {

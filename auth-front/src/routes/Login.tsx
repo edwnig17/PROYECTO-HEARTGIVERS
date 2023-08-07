@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Agregamos useNavigate
+import { useNavigate } from "react-router-dom"; 
 import DefaultLayout from "../layout/DefaultLayout";
 import { useAuth } from "../auth/AuthProvider";
 import { Navigate } from "react-router-dom";
@@ -13,7 +13,7 @@ export default function Login() {
   const [errorResponse, setErrorResponse] = useState("");
 
   const auth = useAuth();
-  const navigate = useNavigate(); // Agregamos useNavigate
+  const navigate = useNavigate(); 
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -40,7 +40,7 @@ export default function Login() {
 
         if (json.body.accessToken && json.body.refreshToken) {
           auth.saveUser(json);
-          navigate("../../../py/frontend/"); 
+          navigate("http://127.0.0.1:5502/catalogo/frontend/index.html"); 
         }
       } else {
         const json = (await response.json()) as AuthResponseError;
@@ -53,7 +53,7 @@ export default function Login() {
   }
 
   if (auth.isAuthenticated) {
-    return <Navigate to="/dashboard" />;
+    window.location.href = "http://127.0.0.1:5502/catalogo/frontend/index.html";
   }
   return (
     <DefaultLayout>
@@ -92,7 +92,7 @@ export default function Login() {
           <div className="right-section">
             <div className="image-container">
               <img src="src/img/login.jpg" alt="Imagen Super HD" />
-              <a href="#">Registrarme</a>
+              <a className="io" href="/Signup">Registrarme</a>
             </div>
           </div>
         </div>

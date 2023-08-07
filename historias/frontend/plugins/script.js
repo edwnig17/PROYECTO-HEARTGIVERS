@@ -1,4 +1,3 @@
-// modal agregar
 const openModalBtn = document.querySelector(".openModalBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 const modal = document.getElementById("modal");
@@ -33,7 +32,6 @@ window.addEventListener('click',(e)=>{
     modalUpdate.style.display = "none";
 })
 
-//Ciclistas
 
   document.getElementById('newCatalogo').addEventListener('submit', function() {
 

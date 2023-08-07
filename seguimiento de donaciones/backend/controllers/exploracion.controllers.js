@@ -47,19 +47,7 @@ const borrarExploracion = async (req, res) => {
 
 const actualizarExploracion = async (req, res) => {
     try {
-        // const data = req.body
-        // const nameCploracion = await Exploracion.findOne({nombreCploracion});
-        // const numCploracion = await Exploracion.findOne({numeroCploracion});
-        // const imgCploracion = await Exploracion.findOne({img});
-        // if(nameCploracion)
-        //     if((nameCploracion._id).toString() != req.params.id)
-        //     return res.status(400).json({message:"EL nombre ya se encuentra registrado"});
-        // if(numCploracion)
-        //     if((numCploracion._id).toString() != req.params.id)
-        //     return res.status(400).json({message:"El numero ya se encuentra registrado"});
-        // if(imgCploracion)
-        //     if((imgCploracion._id).toString() != req.params.id)
-        //     return res.status(400).json({message:"La imagen ya esta en uso"})
+       
         const exploracion = await Exploracion.findOneAndUpdate({_id: req.params.id},req.body,{new:true});
         res.json(exploracion)
     } catch (error) {

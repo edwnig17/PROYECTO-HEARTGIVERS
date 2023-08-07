@@ -1,4 +1,4 @@
-const urlExploracion = "http://localhost:3311/api/exploracion"
+const urlExploracion = "http://localhost:3333/api/exploracion"
 
 export const getExploracion = async ()=>{
     try {  
@@ -34,16 +34,24 @@ export const deleteExploracion = async (borrarr) =>{
 }
 
 
-export const updateExploracion = async (datosA) => {
+export const updateExploracion = async (id, datosA) => {
     try {
-        await fetch(`${urlExploracion}/${datosA._id}`, {   
+        const response = await fetch(`${urlExploracion}/${id}`, {
             method: "PATCH",
-            headers:{'Content-Type':'application/json'},
-            body:JSON.stringify(datosA)
-        }).then(response => response.json()).then(updatedDatos => {
-            console.log('Datos actualizados:', updatedDatos);
-        });window.location.reload()
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(datosA)
+        });
+
+        if (!response.ok) {
+            throw new Error('Error al actualizar los datos en la base de datos');
+        }
+
+        const updatedDatos = await response.json();
+        console.log('Datos actualizados en la base de datos:', updatedDatos);
     } catch (error) {
-      console.error('Error al actualizar los datos:', error);
-    }
+        console.error('Error al actualizar los datos:', error);
+        throw error;
+    }
 }
+
+

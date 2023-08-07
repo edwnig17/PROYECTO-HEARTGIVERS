@@ -1,11 +1,7 @@
 import mongoose from "mongoose";
 
 const historiasSchema = mongoose.Schema({
-    _id: {
-        type: mongoose.Schema.Types.ObjectId,
-        required: [true, 'id es requerido'],
-        trim: true,
-    },
+   
     nombreProyecto: {
         type: String,
         required: [true,'nombre es requerido'],

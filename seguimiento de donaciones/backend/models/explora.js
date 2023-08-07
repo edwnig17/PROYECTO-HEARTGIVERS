@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 
 const exploracionSchema = mongoose.Schema({
+
+
     beneficiados: {
         type: String,
         required: [true,'Beneficiado es requerido'],

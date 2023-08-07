@@ -42,7 +42,7 @@ export default function Signup() {
   }
 
   if (auth.isAuthenticated) {
-    return <Navigate to="/dashboard" />;
+    return <Navigate to="http://127.0.0.1:5502/catalogo/frontend/index.html" />;
   }
 
   return (

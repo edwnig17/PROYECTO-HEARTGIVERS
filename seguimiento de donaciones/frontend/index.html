@@ -15,9 +15,9 @@
 <body>
 	<nav class="nav-style">
 		<a href="../../catalogo/frontend/index.html" class="nav-link">Exploración de Proyectos</a>
-		<a href="../../py/frontend/index.html" class="nav-link">Seguimientos de Donaciones</a>
+		<a href="../../seguimiento de donaciones/frontend/index.html" class="nav-link">Seguimientos de Donaciones</a>
 		<a href="../../historias/frontend/index.html" class="nav-link">Historias de Impacto</a>
-		<a href="../../ultimo/frontend/index.html" class="nav-link">Voluntariado</a>
+		<a href="../../voluntariado/frontend/index.html" class="nav-link">Voluntariado</a>
 		<a href="../../contacto/frontend/index.html" class="nav-link">Contactos</a>
 	  </nav> 
 	 
@@ -68,46 +68,40 @@
 					
 				</div>
 				
-	<!-- modal -->
-	<div id="modal" class="modal">
-		<div class="modal-content">
-			<span class="close-btn" id="closeModalBtn">&times;</span>
-			<h2>Registrar </h2>
-			<div class="form-container">
-				<form id="newCatalogo" class="form-container" action="" method="POST">
-					<div class="input-container">
-					  <input type="number" name="numero" id="numero" placeholder="#ciclista" required>
-					  <input type="text" name="nombre" id="nombre" placeholder="Introduce el nombre" required>
-					  <input type="text" name="equipo" id="equipo" placeholder="Introduce el equipo" required>
-					  <input type="number" min="999" max="3150" name="rendimiento" id="rendimiento" placeholder="Rendimiento" required>
-					  <input type="url" name="imagen" id="imagen" placeholder="Introduce el url imagen" required>
-					</div>
-					<div class="button-container">
-					  <button type="submit" id="nuevoo" href="./">Enviar</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>	
-	 
-	<div id="modalUpdate" class="modal">
-		<div class="modal-content">
-			<span class="close-btn" id="closeUpdate">&times;</span>
-			<h2>Editar </h2>
-			<div class="form-container">
-				<form id="updateCatalogo" class="form-container" action="" method="POST">
-					<div class="input-container">
-					  <input type="text" name="titulo" id="titulo" required>
-					  <input type="text" name="descripcion" id="descripcion" required>
-					  <input type="url" name="imagen" id="imgU" required>
-					</div>
-					<div class="button-container">
-					  <button  id="nuevooU" href="" type="submit">Enviar</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+	<<div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModalBtn" class="close">&times;</span>
+            <h2>Agregar Nueva Exploración</h2>
+            <form id="newCatalogo">
+                <label for="beneficiados">Beneficiados:</label>
+                <input type="text" name="beneficiados" id="beneficiados" required>
+                <label for="productoDonado">Producto Donado:</label>
+                <input type="text" name="productoDonado" id="productoDonado" required>
+                <label for="estadoProducto">Estado del Producto:</label>
+                <input type="text" name="estadoProducto" id="estadoProducto" required>
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal para actualizar exploración -->
+    <div id="modalUpdate" class="modal">
+        <div class="modal-content">
+            <span id="closeUpdate" class="close">&times;</span>
+            <h2>Actualizar Exploración</h2>
+            <form id="formActualizacion">
+                <input type="hidden" id="nuevooU" data-id="">
+                <label for="beneficiadosActualizados">Beneficiados:</label>
+                <input type="text" name="beneficiadosActualizados" id="beneficiadosActualizados" required>
+                <label for="productoDonadoActualizado">Producto Donado:</label>
+                <input type="text" name="productoDonadoActualizado" id="productoDonadoActualizado" required>
+                <label for="estadoProductoActualizado">Estado del Producto:</label>
+                <input type="text" name="estadoProductoActualizado" id="estadoProductoActualizado" required>
+                <button type="submit">Actualizar</button>
+            </form>
+        </div>
+    </div>
+
 	<table class="table table-success table-striped-columns">
 		<thead>
 			<tr>

@@ -146,8 +146,8 @@ body {
     font-size: 36px;
     background-color: #0D0D0D;
     width: 300px;
-    height: 60px; /* Ajustamos el tamaño del botón */
-    line-height: 60px; /* Centramos verticalmente el contenido del botón */
+    height: 60px;
+    line-height: 60px; 
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -155,12 +155,10 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 74px;
   }
-  /* ...otros estilos... */
-  
-  
-  /* ...otros estilos... */
+
+
 .right-section {
-    /* ...otros estilos... */
+
     position: absolute;
     top: 0;
     right: 0;
@@ -173,7 +171,10 @@ body {
     background-color: #f2f2f2;
     overflow: hidden;
   }
-  
+  .io{
+    margin-top: 100px !important;
+
+  }
   .image-container {
     position: relative;
     width: 100%;
@@ -201,7 +202,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agregamos una sombra al botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   }
 
   
