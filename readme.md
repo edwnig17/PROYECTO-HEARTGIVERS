@@ -25,7 +25,7 @@ Somos una organización sin fines de lucro dedicada a brindar apoyo y asistencia
 
 1. Clona el repositorio:
 
-   git clone https://github.com/edwnig17/proyecto-social.git
+   git clone [https://github.com/edwnig17/proyecto-social.git](https://github.com/edwnig17/PROYECTO-HEARTGIVERS.git)
 
 ## Accseso a la carpeta 
 - cd auth-react 
