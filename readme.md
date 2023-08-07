@@ -1,5 +1,4 @@
 # Plataforma de Apoyo Humanitario - Proyecto HEARTGIVERS
-
 ![heartgivers](https://github.com/edwnig17/PROYECTO-HEARTGIVERS/assets/13804647/4d409c63-20e1-40f5-9cca-53406ee962e1)
 
 ## Descripción
