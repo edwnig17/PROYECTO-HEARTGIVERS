@@ -20,9 +20,6 @@ Somos una organización sin fines de lucro dedicada a brindar apoyo y asistencia
 - **Frontend**: React, Vite, Stripe
 - **Backend**: Node.js, MongoDB, Express
 
-## Capturas de Pantalla
-
-> Agregar capturas de pantalla aquí.
 
 ## Instalación
 
