@@ -28,8 +28,7 @@ Somos una organización sin fines de lucro dedicada a brindar apoyo y asistencia
    git clone https://github.com/edwnig17/proyecto-social.git
 
 ## Accseso a la carpeta 
-cd auth-react 
-
+- cd auth-react 
 - Se debe entrar a cada uno de los proyectos a la carpeta back y ahí si inicializarlo 
 - En la carpeta de auth-back se usa el ´node index.js´
 - En la carpeta de auth-front se usa el npm run dev
